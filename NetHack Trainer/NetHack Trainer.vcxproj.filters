@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="source\process">
+      <UniqueIdentifier>{34923554-a456-452f-8df8-b881ecc79103}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\memory">
+      <UniqueIdentifier>{a6c73031-38c0-4c5d-ba53-829e899866d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="icon">
+      <UniqueIdentifier>{032357d4-1ead-499a-aeb8-c8ee9995c29c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="NetHack Trainer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="process.cpp">
+      <Filter>source\process</Filter>
+    </ClCompile>
+    <ClCompile Include="memory.cpp">
+      <Filter>source\memory</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="process.h">
+      <Filter>source\process</Filter>
+    </ClInclude>
+    <ClInclude Include="memory.h">
+      <Filter>source\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>icon</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon.ico">
+      <Filter>icon</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="NetHack Trainer.rc">
+      <Filter>icon</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
